@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the NotFoundPage 1`] = `
+<div>
+  <h1
+    className="big-fucking-warning"
+  >
+    404
+  </h1>
+  <p
+    className="fucking-warning"
+  >
+    Wrong page, mother fucker!
+  </p>
+  <Link
+    className="fucking-warning"
+    replace={false}
+    to="/"
+  >
+    Go back to Amsterdam!
+  </Link>
+</div>
+`;
