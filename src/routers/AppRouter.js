@@ -8,14 +8,14 @@ import HelpPage from "../components/HelpPage.js"
 import NotFoundPage from "../components/NotFoundPage.js"
 import LoginPage from "../components/LoginPage"
 import PrivateRoute from "./PrivateRoute";
-
+import PublicRoute from "./PublicRoute"
 export const history = createHistory();
 
 const AppRouter = () => (
   <Router history={history}>
     <div>
       <Switch>
-        <Route
+        <PublicRoute
           path="/"
           component={LoginPage}
           exact={true} />
